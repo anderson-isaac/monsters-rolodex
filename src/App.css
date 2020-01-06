@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 45vmin;
 }
 
 .App-header {
@@ -19,4 +19,15 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+h1 {
+  font-family: "Bigelow Rules";
+  color: cyan;
+  font-size: 120px;
+  text-shadow: 0 0 5px black;
+}
+
+.jumbotron {
+  color: #282c34;
 }
