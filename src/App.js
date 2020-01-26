@@ -18,12 +18,14 @@ class App extends Component {
 
   }
 
+  // Run this code after this component is mounted
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => this.setState({ monsters: users }))    
   }
 
+  // Run this code when a change occurs
   handleChange = (e) => {
     this.setState({ searchField : e.target.value })
   }
