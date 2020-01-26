@@ -28,6 +28,17 @@ h1 {
   text-shadow: 0 0 5px black;
 }
 
+h1 + span {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 3px blue;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+
 .jumbotron {
   color: #282c34;
 }

@@ -35,7 +35,8 @@ class App extends Component {
 
     return (      
         <div className="App">
-          <h1 className="mt-5">Monsters Rolodex - I'am testing</h1>
+          <h1 className="mt-5">Monsters Rolodex</h1>
+          <span>Classic React Project</span>
           <SearchBox
             placeholder="Search monsters"
             handleChange={ this.handleChange }
